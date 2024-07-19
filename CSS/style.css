@@ -1,0 +1,140 @@
+p{
+  color:#676768 ;
+}
+
+
+
+h1{
+font-weight: 400;
+font-size: 80px;
+}
+body {
+font-family: poppins;
+}
+nav .logo{
+  margin-left: 3rem;
+}
+.coc{
+  color: white;
+  background-color:#366DFC ;
+ margin: 15px;
+ margin-left: 50px;
+ padding: 10px;
+ padding-left: 15px;
+ padding-right: 15px;
+ width: 100px;
+ height: 100px;
+ border-radius: 100%;
+ 
+}
+nav ul{
+  list-style: none;
+  
+}
+ a{
+  text-decoration: none;
+  color: black;
+
+}
+nav .home{
+color: #366DFC;
+font-weight: bold;
+}
+nav{
+   background: fff;
+  display: flex;
+  justify-content: space-between;
+ flex-wrap: wrap;
+  padding: 0rem 1rem;
+  padding-bottom: 1rem;
+  align-items: center;
+  box-shadow: 0 4px 4px rgb(212, 210, 210);
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+}
+
+.nav__list {
+  width: auto;
+  display: flex;
+  max-height: 100%;
+  opacity: 1;
+  align-items: center;
+  margin-right: 5rem;
+  
+}
+.nav__items {
+  border: 0;
+  padding: 0.5rem 1rem;
+
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #fff;
+  
+}
+.sub-hero{
+  display: flex;
+  justify-content: space-between;
+
+    
+}
+.hero-text{
+  margin-left: 3rem;
+  margin-top: 3rem;
+}
+.random{
+ margin-top: 75px;
+}
+
+.sub-hero img{
+  border-radius: 10px;
+}
+.business{
+  background-image: linear-gradient(-260deg,#1624E6 ,#2e6fe7 ,#3ba4f5 );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+}
+.btn-primary{
+  color: #fff;
+  background-color: #366DFC;
+  padding: 17px;
+  border-radius: 10px;
+  border: 0;
+  
+}
+.btn-secondary{
+  color: #366DFC;
+  font-weight: bold ;
+  background-color: transparent;
+  border: 1px solid #366DFC;
+   padding: 17px;
+  border-radius: 10px;
+}
+.button{
+  display: flex;
+  gap: 1.5rem;
+}
+.random h2{
+  font-size: 50px;
+  margin-bottom: 0;
+}
+.update{
+  display: flex;
+   gap: 2rem;
+}
+
+.stroke{
+  border-left: 2px solid rgb(238, 233, 233);
+  height: 80px;
+  margin-top: 45px;
+}
