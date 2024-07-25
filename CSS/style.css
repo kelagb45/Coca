@@ -426,23 +426,25 @@ box-shadow: 0 0 20px rgb(22, 22, 216);
   border-radius: 50%;
   color: #fff;
   margin-top: 8rem;
-
+margin-left: 0;
  
 }
 
 .footer-end .heading2{
-
+ margin-left: 3rem;
   color: #fff;
 }
 .email{
 
   background-color: #0D172A;
   border: 0;
+  margin-left: 3rem;
     
 }
 .input{
   display: flex;
 border-bottom: 1px solid rgb(145, 139, 139);
+ margin-left: 3rem;
 
 
 
@@ -452,7 +454,7 @@ border-bottom: 1px solid rgb(145, 139, 139);
   background-color: #0d0d0e;
   padding: 15px;
   border-radius: 5px;
-
+ margin-left: 3rem;
 }
 .footer-end{
   display: flex;
@@ -463,9 +465,9 @@ border-bottom: 1px solid rgb(145, 139, 139);
   display: flex;
  justify-items: center;
   color: #fff;
- gap: 7rem;
- margin-top: 9rem;
- 
+ gap: 4rem;
+ margin-top: 7rem;
+
 
 }
 
@@ -478,5 +480,183 @@ border-bottom: 1px solid rgb(145, 139, 139);
 }
 .footer-list a{
   color: #fff;
-  padding-bottom: 7rem;
+  font-size: 13px;
+
+}
+.footer-column {
+  flex: 1;
+  min-width: 150px;
+  margin: 0 20px;
+}
+.footer-column ul li{
+  margin-bottom: 8px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #7b797c;
+  font-size: 14px;
+  color: #777;
+ 
+ 
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.social-icons a:hover {
+  color: #6c63ff;
+}
+
+@media(max-width: 1200px){
+.hero{
+flex-direction: column;
+align-item: flex-start;
+}
+.hero-text {
+    margin-left: 0;
+    margin-top: 1rem;
+}
+
+.hero img {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.Meet,
+.Big-company,
+.service-text,
+.evolution-text {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.service-text,
+.evolution-text {
+    gap: 2rem;
+}
+}
+@media(max-width: 768px){
+  nav{
+flex-direction :column;
+align-items: flex-start;
+Padding: 1rem;
+}
+nav .logo {
+    margin-left: 0;
+}
+
+nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.footer-head {
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-list {
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-end {
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero,
+.functions,
+.dive,
+.settings,
+.footer-column,
+.footer-list ul,
+.member-info {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.button {
+    flex-direction: column;
+    width: 100%;
+}
+
+.functions,
+.boxes {
+    flex-direction: column;
+}
+
+.members {
+    flex-direction: column;
+}
+
+.hero img {
+    width: 100%;
+    margin: 0 auto;
+}
+}
+@media(max-width){
+h1{
+font-size: 40px;
+}
+.coc,
+.footer-start {
+    width: 80px;
+    height: 80px;
+}
+
+.btn-primary,
+.btn-secondary {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btn-primary,
+.btn-secondary,
+.button {
+    width: 100%;
+    margin: 0;
+}
+
+.hero {
+    padding: 20px;
+}
+
+.footer-head {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-end {
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-column {
+    margin: 0;
+}
 }
